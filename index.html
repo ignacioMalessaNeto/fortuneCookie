@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune cookie</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Dancing+Script&family=Montserrat:wght@100;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="./assets//icon-cookie-fortune.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="modal">
+        <h1 class="title">What's your luck today?</h1>
+
+        <p class="text-presentation">Open the cookie and find it out!</p>
+
+        <h2 class="text-after-break">Here's your luck today:</h2>
+        <div class="box-phase-cookie">
+            <p class="phase-fortune-cookie"></p>
+        </div>
+
+        <button class="button-cookie" onclick="openCookie()">
+            <img class="cookie" src="./assets/fortune-cookie.png" alt="Fortune cookie image">
+        </button>
+
+
+        <img class="cookie-breack" src="./assets/opened-cookie.png" alt="Fortune cookie image">
+
+        <button class="button-after-break" onclick="openCookie()">
+            Open another cookie
+        </button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
